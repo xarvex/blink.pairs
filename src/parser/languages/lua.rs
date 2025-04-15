@@ -8,7 +8,7 @@ define_matcher!(Lua {
         "{" => "}"
     ],
     line_comment: ["--"],
-    block_comment: ["--[[" => "--]]"],
+    block_comment: ["--[[" => "]]"],
     string: ["\"", "'"],
     block_string: ["[[" => "]]"]
 });
